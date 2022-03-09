@@ -4,7 +4,7 @@
   "description": "PascalToSnake Project",
   "main": "\u001b[C\u001b[C\u001b[C\u001bjs/app.js\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[\u001b[C",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
