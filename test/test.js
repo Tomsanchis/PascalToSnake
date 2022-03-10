@@ -1,4 +1,5 @@
-var assert = require('assert');
+import assert from 'assert';
+import { pascaltosnake } from '../js/app.js';
 
 describe('Array', function () {
   describe('#indexOf()', function () {
