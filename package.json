@@ -2,7 +2,8 @@
   "name": "pascaltosnake",
   "version": "1.0.0",
   "description": "PascalToSnake Project",
-  "main": "\u001b[C\u001b[C\u001b[C\u001bjs/app.js\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[\u001b[C",
+  "main": "js/app.js",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
