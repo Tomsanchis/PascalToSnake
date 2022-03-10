@@ -8,7 +8,6 @@ describe('Array', function () {
   });
 });
 
-
 describe('pascaltosnake', () => {
   it('should return TestController', () => {
     assert.equal(pascaltosnake("TestCcontroller"), "test_controller");
