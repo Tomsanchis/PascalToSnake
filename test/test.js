@@ -1,17 +1,17 @@
 import assert from 'assert';
 import { pascaltosnake } from '../js/app.js';
 
-describe('Array', function () {
-  describe('#indexOf()', function () {
-    it('should return -1 when the value is not present', function () {
-      assert.equal([1, 2, 3].indexOf(4), -1);
-    });
-  });
-});
+// describe('Array', function () {
+//   describe('#indexOf()', function () {
+//     it('should return -1 when the value is not present', function () {
+//       assert.equal([1, 2, 3].indexOf(4), -1);
+//     });
+//   });
+// });
 
 describe('pascaltosnake', () => {
   it('should return TestController', () => {
-    assert.equal(pascaltosnake("TestCcontroller"), "test_controller");
+    assert.equal(pascaltosnake("TestController"), "test_controller");
   });
   it('should return MovieAndBook', () => {
     assert.equal(pascaltosnake("MovieAndBook"), "movie_and_book");
@@ -25,7 +25,7 @@ describe('pascaltosnake', () => {
   it('should return Home', () => {
     assert.equal(pascaltosnake("Home"), "home");
   });
-  it('should return \"1\"', () => {
-    assert.equal(pascaltosnake("1"), "\"1\"");
+  it('should return \'1\'', () => {
+    assert.equal(pascaltosnake(1), "1");
   });
 })
