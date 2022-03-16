@@ -1,3 +1,6 @@
 export const pascaltosnake = (entry) => {
-    return entry;
+        let news = "";
+        if (!isNaN(entry)) {
+            return news =+ entry.toString();
+        }
 }
